@@ -1,0 +1,55 @@
+{
+  "network": "Arc Testnet",
+  "chainId": 5042002,
+  "rpc": "https://rpc.testnet.arc.network",
+  "explorer": "https://testnet.arcscan.app",
+  "WUSDC": "0x911b4000D3422F482F4062a913885f7b035382Df",
+  "contracts": {
+    "UnitFlowV3Factory": {
+      "address": "0xAb6A8AAb7d490007634ef59d424b5d89688a1971",
+      "abi": "deployments/abis/UnitFlowV3Factory.json"
+    },
+    "UnitFlowInterfaceMulticall": {
+      "address": "0x0453A723b4974dBc044B60F303E37C394F7FDdE5",
+      "abi": "deployments/abis/UnitFlowInterfaceMulticall.json"
+    },
+    "TickLens": {
+      "address": "0x621d5704C2B3470D21BaC7Bb47B1b933116551fA",
+      "abi": "deployments/abis/TickLens.json"
+    },
+    "NFTDescriptor": {
+      "address": "0x9A37137Bdf62d3ddfA648f1616fcF38A91637660",
+      "abi": "deployments/abis/NFTDescriptor.json"
+    },
+    "NonfungibleTokenPositionDescriptor": {
+      "address": "0x421EeCc906A63C7261671e60A0F2Be9D02bbeB50",
+      "abi": "deployments/abis/NonfungibleTokenPositionDescriptor.json"
+    },
+    "UnitFlowV3PositionManager": {
+      "address": "0x0553682bc188b850acd31CBd3500Dcd0aa35372B",
+      "abi": "deployments/abis/UnitFlowV3PositionManager.json"
+    },
+    "UnitFlowV3Router": {
+      "address": "0xB0Ba24f9C49D933523219e92528E7e5db93e9AFc",
+      "abi": "deployments/abis/UnitFlowV3Router.json"
+    },
+    "Quoter": {
+      "address": "0x121aeB6DEf00F6F67665008CaC1C19805886ed1a",
+      "abi": "deployments/abis/Quoter.json"
+    },
+    "V3Migrator": {
+      "address": "0x4122f9B4ee7C18CC6b6b71180B438477D17034AB",
+      "abi": "deployments/abis/V3Migrator.json"
+    }
+  },
+  "_deprecated": {
+    "UnitFlowV3Router_v1": "0x23970b3a5AD7211eC4A858a29258F1e288eE2420",
+    "UnitFlowV3Router_v2": "0x75eDe46A468Eb600C10982e6FdCeADCB37a40930",
+    "UnitFlowV3Router_v3_wrong_factory": "0xaf13ae532009D49ecc9Cf7d969Cb1154C0BE779F",
+    "UnitFlowV3PositionManager_v1": "0x394f12daac66786D04391556AF1363a36eEB7F4B",
+    "UnitFlowV3PositionManager_v2": "0xf8ecf496D9c31Cbf2aEa4DEc32471851A5c95181",
+    "UnitFlowV3PositionManager_v3_wrong_factory": "0x1b947e4b30ebE81f104C764D8D8989c95032b742",
+    "UnitFlowV3Router_pre_security_fix": "0x509cF58CdA08C7aee83a2BdBb4A1Eac907343D01",
+    "UnitFlowV3PositionManager_pre_security_fix": "0x77c39eB310BE31e60068CE29855F83359bf85fc4"
+  }
+}
